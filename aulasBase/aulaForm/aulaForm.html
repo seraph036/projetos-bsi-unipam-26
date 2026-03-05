@@ -45,7 +45,7 @@
 
       <div>
       <label for="data">Data do Evento: 
-      <input type=datetime-local required>
+      <input type="datetime-local" required>
       </label>
       </div>
 
@@ -53,7 +53,7 @@
 
       <div>
       <label for="telefone">Número de Telefone: 
-      <input text="tel" required placeholder=" (XX) XXXXX-XXXX">
+      <input type="tel" required placeholder=" (XX) XXXXX-XXXX">
       </label>
       </div>
 
@@ -61,7 +61,15 @@
 
       <div>
       <label for="email">Endereço de Email: 
-      <input text="email" required placeholder=" user@example.org">
+      <input type="email" required placeholder=" user@example.org">
+      </label>
+      </div>
+
+      <br>
+
+      <div>
+      <label for="peso">Peso:
+      <input type="number" required min="0" max="4000" step="20">
       </label>
       </div>
 
