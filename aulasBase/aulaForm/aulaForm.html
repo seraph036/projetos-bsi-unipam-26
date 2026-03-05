@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>Aula de Formulários</title>
+
   </head>
   <body>
+
     <h2>Aula sobre formulários em HTML</h2>
 
     <form>
+
       <div>
-      <label for="nome">Nome: </label>
-      <input type="text">
+      <label for="nome">Nome: 
+      <input type="text" required>
+      </label>
       </div>
+
       <br>
+
       <div>
-      <label for="idade">Idade: </label>
-      <input type="number" min="0" max="120">
+      <label for="idade">Idade: 
+      <input type="number" min="0" max="120" required>
+      </label>
       </div>
+
       <br>
+
       <div>
-      <label for="usuario">Usuário: </label>
-      <input type="idade">
+      <label for="usuario">Usuário: 
+      <input type="idade" required>
+      </label>
       </div>
+
       <br>
+
       <div>
-      <label for="senha">Senha: </label>
-      <input type="password">
+      <label for="senha">Senha: 
+      <input type="password" required>
+      </label>
       </div>
+
       <br>
+
       <div>
-      <label for="data">Data do Evento: </label>
-      <input type=datetime-local>
+      <label for="data">Data do Evento: 
+      <input type=datetime-local required>
+      </label>
       </div>
+
       <br>
+
+      <div>
+      <label for="telefone">Número de Telefone: 
+      <input text="tel" required placeholder=" (XX) XXXXX-XXXX">
+      </label>
+      </div>
+
+      <br>
+
+      <div>
+      <label for="email">Endereço de Email: 
+      <input text="email" required placeholder=" user@example.org">
+      </label>
+      </div>
+
+      <br>
+
       <button type="submit">Enviar</button>
+
     </form>
+
   </body>
 </html>
