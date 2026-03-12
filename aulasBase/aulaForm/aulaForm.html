@@ -1,76 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <title>Aula de Formulários</title>
-
   </head>
   <body>
-
     <h2>Aula sobre formulários em HTML</h2>
 
     <form>
-
+      
       <div>
-      <label for="nome">Nome: 
-      <input type="text" required>
-      </label>
+        <label for="nome">Nome: 
+          <input type="text" required>
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="idade">Idade: 
-      <input type="number" min="0" max="120" required>
-      </label>
+        <label for="idade">Idade: 
+          <input type="number" min="0" max="120" required>
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="usuario">Usuário: 
-      <input type="idade" required>
-      </label>
+        <label for="usuario">Usuário: 
+          <input type="idade" required>
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="senha">Senha: 
-      <input type="password" required>
-      </label>
+        <label for="senha">Senha: 
+         <input type="password" required>
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="data">Data do Evento: 
-      <input type="datetime-local" required>
-      </label>
+       <label for="data">Data do Evento: 
+          <input type="datetime-local" required>
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="telefone">Número de Telefone: 
-      <input type="tel" required placeholder=" (XX) XXXXX-XXXX">
-      </label>
+       <label for="telefone">Número de Telefone: 
+          <input type="tel" required placeholder=" (XX) XXXXX-XXXX">
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="email">Endereço de Email: 
-      <input type="email" required placeholder=" user@example.org">
-      </label>
+        <label for="email">Endereço de Email: 
+          <input type="email" required placeholder=" user@example.org">
+        </label>
       </div>
 
       <br>
 
       <div>
-      <label for="peso">Peso:
-      <input type="number" required min="0" max="4000" step="20">
-      </label>
+        <label for="peso">Peso:
+         <input type="number" required min="0" max="4000" step="20">
+       </label>
       </div>
 
       <br>
@@ -142,10 +139,34 @@
       <br>
 
       <div>
-      <label>
-      Deixe sua sugestão: 
-      <textarea cols="30" rows="5"></textarea>
-      </label>
+        <p>
+          <label>
+            Carro:
+            <select name="carros" required>
+              <optgroup label="1: Esportivos">
+                <option value="1.1">Ferrari</option>
+                <option value="1.2">Porsche</option>
+                <option value="1.3">Lamborghini</option>
+              </optgroup>
+              
+              <optgroup label="2: Populares">
+                <option value="2.1">Corsa</option>
+                <option value="2.2">Uno</option>
+                <option value="2.3">Gol</option>
+                <option value="2.4">Palio</option>
+              </optgroup>
+            </select>
+          </label>
+        </p>
+      </div>
+
+      <br>
+
+      <div>
+        <label>
+          <p>Deixe sua sugestão:</p>
+          <textarea cols="30" rows="5"></textarea>
+        </label>
       </div>
 
       <br>
