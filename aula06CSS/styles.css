@@ -1,0 +1,29 @@
+:root{
+  --prim-color: #101a72;
+  --prim-hover-color: #1070b9;
+  --sec-color: #22c55e;
+  --bg-color: #f8fafc;
+  --text-color: #1e293b;
+  --card-color: #ffffff;
+  --tag-color: #e0e7ff;
+
+  --small-spacing: 0.5rem;
+  --medium-spacing: 1.0rem;
+  --large-spacing: 1.5rem;
+  --xl-spacing: 2rem;
+}
+
+button{
+  background-color: var(--prim-color);
+  color: var(--bg-color);
+}
+
+button:hover{
+  background-color: var(--prim-hover-color);
+}
+
+p{
+  background-color: var(--bg-color)
+}
+
+
